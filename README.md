@@ -4,6 +4,7 @@ In some states, we need repeated passwords like AAAAaaaa.
 So, this tool will help us to create repeated words quickly.
 # usage
 $ python  pwgen.py
-$ls
+
+
 
 And then check out the output file with .txt extension. 
