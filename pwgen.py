@@ -84,7 +84,7 @@ def NumberUpperLower():
     for cap in lstCaptial:
         for small in lstSmall:
             for num in lstNum:
-                with open('wordLIST111.txt', 'a') as f:
+                with open('111WORDlist.txt', 'a') as f:
                     f.write(num*n + cap*x + small*y + '\n')
 
 #Form 8(1111aaaaAAAA)
@@ -92,7 +92,7 @@ def NumberLowerUpper():
     for cap in lstCaptial:
         for small in lstSmall:
             for num in lstNum:
-                with open('wordLIST111.txt', 'a') as f:
+                with open('111wordLIST.txt', 'a') as f:
                     f.write( num*n + small*y + cap*x  + '\n')                    
 
 
