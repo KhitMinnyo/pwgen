@@ -1,5 +1,5 @@
 #!python
-#cython: language_level=3
+#cython: language_level=2
 ##pwgen is Repeated Password Generating tool.
 ##pwgen is developed by KhitMinnyo from AiO.
 #=====================================================================================#
