@@ -29,8 +29,6 @@ n = input('Enter number of numbers 1234567890 that you want to repeat.  ')
 # spe = input ('Enter number of special characters that you want to repeat.  ')
 
 
-F = open('WORDlist.txt', 'w')
-f = open('wordLIST.txt', 'w')
 
 #Form 1(AAAAaaaa)
 def UpperToLower():
