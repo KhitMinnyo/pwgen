@@ -14,9 +14,8 @@
 #*************** Viber 09 976 41 3560 && Mail khitminnyo@khitminnyo.com **************#
 #######################################################################################
 
-
 #pwgen Version info
-#Version 1.0
+#Version 1.1
 
 import sys
 lstCaptial = "ABCDEFGHIJKLMNOPQRSTUVWHYZ"
@@ -26,16 +25,23 @@ lstNum = "0123456789"           # for further use (may be in the new version)
 
 x = input('Enter number of CAPITAL LETTERS that you want to repeat.  ')
 y = input('Enter number of small letters that you want to repeat.  ')
+
+F = open('WORDlist.txt', 'w')
+f = open('wordLIST.txt', 'w')
+
 def UpperToLower():
     for cap in lstCaptial:
         for small in lstSmall:
-                print(cap*x + small*y )
+                with open('WORDlist.txt', 'a') as f:
+                    f.write(cap*x + small*y + '\n') 
 
+                
 
 def LowerToUpper():
     for cap in lstCaptial:
         for small in lstSmall:
-                print(small*y + cap*x) 
+                with open('wordLIST.txt', 'a') as f:
+                    f.write(small*y + cap*x + '\n')
 
 
 
@@ -52,10 +58,3 @@ while flag:
         break
     else:
         print("Please, type 1 or 2 only. ")
-
-
-
-    
-
-        
-        
